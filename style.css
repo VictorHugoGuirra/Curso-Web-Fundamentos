@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 40px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;    
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.hero nav a{
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(30, 40, 20, 0.3);
+    color: #e7c5c5;
+}
+
+.hero nav a:active{
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 5px 5px 4px #333333 ;
+}
+
+.hero-content p{
+   background-color: rgba(0, 0, 0, 0.5);
+   display: inline-block;
+   border-bottom: 2px solid white; 
+   padding: 7px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+}
+
+.card1, .card2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    /*display: block;*/
+}
+
+.card p{
+    background-color: rgb(90, 89, 89);
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo{
+    background-color: #cccccc;
+    border-bottom: solid 1px rgb(43, 41, 41);
+    padding: 10px;
+    margin: 0;
+}
+
+.rodape{
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    background-color: #9c8d8d;
+    line-height: 60px;
+}
